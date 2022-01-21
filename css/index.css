@@ -1,0 +1,286 @@
+ .main {
+     margin-top: 10px;
+     margin-left: 220px;
+     width: 980px;
+     height: 455px;
+ }
+ .main .focus {
+     float: left;
+     width: 720px;
+     height: 455px;
+ }
+ .main .newsflash {
+     float: right;
+     width: 250px;
+     height: 455px;
+ }
+ /* news */
+ .news {
+     height: 165px;
+     border: 1px solid #e4e4e4 ;
+ }
+ .news-hd {
+    padding: 0 16px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+ }
+ .news-hd h5 {
+    float: left;
+    font-size: 14px;
+ }
+ .news-hd a {
+    float: right;
+    font-size: 14px;
+ }
+ .news-hd a::after {
+     margin-left: 8px;
+    content: '\e920';
+    font-family: 'icomoon';
+ }
+ .news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+ .news-bd ul {
+    padding: 5px 16px 0;
+ }
+ /* news */
+
+ .lifeservice {
+     height: 209px;
+     border: 1px solid #e4e4e4;
+     border-top: 0;
+     overflow: hidden;
+ }
+ .lifeservice ul {
+     width: 252px;
+ }
+ .lifeservice ul li {
+     float: left;
+     width: 63px;
+     height: 71px;
+     border-right: 1px solid #e4e4e4;
+     border-bottom: 1px solid #e4e4e4;
+     text-align: center;
+ }
+ .lifeservice i {
+    display:inline-block;
+    margin-top: 13px;
+    width: 24px;
+    height: 24px;
+ }
+ .lifeservice .huafei i{
+    background: url(../images/icons.png) no-repeat -17px -16px;
+ }
+ .lifeservice .jipiao i{
+    background: url(../images/icons.png) no-repeat -79px -16px;
+ }
+ .lifeservice .dianyingpiao i{
+    background: url(../images/icons.png) no-repeat -142px -16px;
+ }
+ .lifeservice .youxi i{
+    background: url(../images/icons.png) no-repeat -205px -16px;
+ }
+ .lifeservice .caipiao i{
+    background: url(../images/icons.png) no-repeat -17px -87px;
+ }
+ .lifeservice .jiayouka i{
+    background: url(../images/icons.png) no-repeat -79px -87px;
+ }
+ .lifeservice .jiudian i{
+    background: url(../images/icons.png) no-repeat -142px -87px;
+ }
+ .lifeservice .huochepiao i{
+    background: url(../images/icons.png) no-repeat -205px -87px;
+ }
+ .lifeservice .zhongcho i{
+    background: url(../images/icons.png) no-repeat -17px -159px;
+ }
+ .lifeservice .licai i{
+    background: url(../images/icons.png) no-repeat -79px -159px;
+ }
+ .lifeservice .lipinka i{
+    background: url(../images/icons.png) no-repeat -142px -159px;
+ }
+ .lifeservice .baitiao i{
+    background: url(../images/icons.png) no-repeat -205px -159px;
+ }
+ .bargain {
+     margin-top: 6px;
+ }
+
+/* recom start */
+.recom {
+   margin-top: 12px;
+   height: 162px;
+   background-color: #ebebeb;
+}
+.recom_hd {
+   float: left;
+   height: 162px;
+   width: 206px;
+}
+.recom_hd img {
+   height: 100%;
+}
+.recom_bd ul li {
+   position: relative;
+   float: left;
+   margin-top: 10px;
+   width: 248.5px;
+   height: 143px;
+   font-size: 14px;
+   border-right: 1px solid #dddddd;
+}
+.recom_bd ul li:nth-child(4) {
+   border: 0;
+}
+.recom_bd li {
+   padding-left: 10px;
+   padding-top: 10px;
+   width: 206px;
+   background-color: #ebebeb;
+
+}
+.recom_bd li h4{
+   padding-bottom: 10px;
+}
+.recom_bd .ll {
+   text-align: center;
+   width: 87px;
+   color: #fff;
+   background-color: #00a0e8;
+}
+.recom_bd img {
+   position: absolute;
+   top: 17px;
+   right: 35px;
+}
+/* 123 */
+.plp {
+   height: 60px;
+   padding-top: 30px;
+}
+.cainixihuan {
+   float: left;
+   font-size: 18px;
+}
+.huanyipi {
+   float:right;
+   margin-right: 20px;
+}
+.shangping {
+   height: 233px;
+   border: 1px solid #dddddd;
+}
+.shangping ul li {
+   float:left;
+   width: 200px;
+   height: 233px; 
+}
+.shangping ul {
+   width: 1200px;
+   overflow: hidden;
+}
+.shangping span {
+   font-size: 18px;
+   color: #df3033;
+}
+.jiage {
+   margin-top: 14px;
+   width: 100%;
+   height: 62px;
+   padding: 0 35px;
+   border-right: 1px solid #dddddd;
+}
+.shangping .jiage1 {
+   border: 0;
+}
+/* 123 */
+/* recom end */
+/* 家用电器模块 */
+.box_hd {
+   margin-top: 30px;
+   height: 30px;
+   line-height: 30px;
+   border-bottom: 2px solid #c81623;
+}
+.box_hd dt {
+   float: left;
+   font-size: 18px;
+   color: #c81623;
+   font-weight: 400;
+}
+.tab_list {
+   float: right;
+}
+.tab_list span {
+   padding: 0 17px 0 14px;
+   border-right: 1px solid #999;
+   font-size: 12px;
+}
+.tab_list span:nth-child(9) {
+   border: 0;
+}
+.box_bd {
+   height: 361px;
+}
+.tab_list_item>div {
+   float: left;
+   height: 361px;
+}
+.col_210 {
+   width: 210px;
+   background-color: #f9f9f9;
+   text-align: center;
+}
+.col_210 ul li {
+   float: left;
+   width: 86px;
+   height: 33px;
+   border-bottom: 1px solid #ededed;
+   line-height: 33px;
+}
+.col_210 ul{
+   margin-left: 14px;
+}
+.col_210 ul li {
+   margin-right: 12px;
+}
+.col_329 {
+   width: 329px;
+}
+.col_221 {
+   width: 221px;
+   border-right: 1px solid #ccc;
+}
+.col_219 {
+   width: 219px;
+}
+.bb {
+   display: block;
+   border-bottom: 1px solid #ccc;
+}
+.pingpai {
+   position: relative;
+   margin-top: 20px;
+   height: 65px;
+   background-color: #f7f7f7;
+   text-align: center;
+}
+.pingpai ul  {
+   position: absolute;
+   top: 50%;
+   margin-top: -20px;
+}
+.pingpai ul li {
+   float: left;
+   width: 120px;
+   height: 40px;
+   border-right: 1px dotted #ccc;
+}
+/* 家用电器模块 */
